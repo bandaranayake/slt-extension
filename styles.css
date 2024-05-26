@@ -1,0 +1,25 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 10px;
+  width: 400px;
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+}
+
+.summary {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.summary h2 {
+  margin: 0 0 10px;
+}
+
+.summary p {
+  margin: 5px 0;
+}

@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "SLT Data Bundle Viewer",
+  "description": "Displays SLT data bundle information.",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/Icon-16.png",
+      "48": "images/Icon-48.png",
+      "128": "images/Icon-128.png"
+    }
+  },
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://omniscapp.slt.lk/*"
+  ]
+}
